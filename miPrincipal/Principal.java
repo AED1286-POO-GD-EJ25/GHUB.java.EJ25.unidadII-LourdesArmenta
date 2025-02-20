@@ -24,6 +24,20 @@ public class Principal {
         p1.saludar();
 
         p2.saludar();
+
+
+        //Sobreescritura de Métodos
+
+        Animal animal1 = new Animal();
+
+        animal1.setNombre("Francisco");
+
+        animal1.saludar();
+
+        Perro perro1 = new Perro("Firulais", 4,"criollo");
+
+        perro1.saludar();
+        
         
     }
 }

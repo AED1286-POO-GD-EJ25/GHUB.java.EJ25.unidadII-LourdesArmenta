@@ -9,3 +9,5 @@
 ./miPrincipal/Persona.java
 ./miPrincipal/Alumno.java
 ./miPrincipal/Principal.java
+./miPrincipal/Animal.java
+./miPrincipal/Perro.java
