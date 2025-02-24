@@ -38,6 +38,29 @@ public class Principal {
 
         perro1.saludar();
         
+        Animal animal2 = new Animal();
+
+        animal2.setNombre("LOurdes");
+
+        animal2.saludar();
+        animal2.saludar("Hola");
+
+        Calculadora calculadora = new Calculadora();
+
+        System.out.println("La suma = "+calculadora.sumar(5,10));
+        System.out.println("La suma = "+calculadora.sumar(5,10.5));
+        System.out.println("La suma = "+calculadora.sumar(5.0,10.5));
+
+        float x=1,y=2,z=3;
+        float sumar = calculadora.sumar(x, y, z);
+        System.out.println("La suma = "+sumar);
+
+        System.out.println("La suma = "+calculadora.sumar(5.0f,10.0f,20.0f));
+
+
+
+        
+
         
     }
 }

@@ -20,6 +20,15 @@ public class Animal {
         System.out.println("Soy un animal de nombre: "+nombre+" y estoy saludando");
     }
 
+    public void saludar(String texto){
+        System.out.println("Este es mi saludo: "+texto);
+
+    }
+
+   
+
+    //
+
     //Getter y Setter
     public String getNombre() {
         return nombre;

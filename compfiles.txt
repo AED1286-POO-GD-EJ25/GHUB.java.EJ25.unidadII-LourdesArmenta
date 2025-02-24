@@ -6,6 +6,7 @@
 ./biblioteca/Ejemplar.java
 ./biblioteca/Invitado.java
 ./biblioteca/Bibliotecario.java
+./miPrincipal/Calculadora.java
 ./miPrincipal/Persona.java
 ./miPrincipal/Alumno.java
 ./miPrincipal/Principal.java
