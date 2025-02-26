@@ -8,8 +8,10 @@
 ./biblioteca/Bibliotecario.java
 ./miPrincipal/Calculadora.java
 ./miPrincipal/Persona.java
+./miPrincipal/Punto.java
 ./miPrincipal/Forma.java
 ./miPrincipal/Alumno.java
 ./miPrincipal/Principal.java
 ./miPrincipal/Animal.java
 ./miPrincipal/Perro.java
+./miPrincipal/Edad.java

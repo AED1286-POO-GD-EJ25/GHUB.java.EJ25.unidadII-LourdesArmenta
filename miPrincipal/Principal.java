@@ -63,6 +63,17 @@ public class Principal {
         System.err.println("Area de un triangulo: "+forma.calcularArea(3,5));
         System.out.println("Area de un cuadrado: "+forma.calcularArea(2.1f));
 
+        //Creacion de objetos
+        /*
+         * sintaxis:
+         * 
+         * 
+         *
+         */
+
+        Punto punto = new Punto();
+
+
 
 
         
