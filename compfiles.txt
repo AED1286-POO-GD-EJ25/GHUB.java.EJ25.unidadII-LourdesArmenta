@@ -1,3 +1,5 @@
+./paquete1/Motor.java
+./paquete1/Automovil.java
 ./miTest/AppTest.java
 ./biblioteca/Persona.java
 ./biblioteca/Libro.java

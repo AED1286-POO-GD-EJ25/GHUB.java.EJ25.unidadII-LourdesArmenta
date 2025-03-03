@@ -1,4 +1,5 @@
 package miPrincipal;
+import paquete1.*;
 
 public class Principal {
    
@@ -97,6 +98,32 @@ public class Principal {
         double d = punto1.calcularDistancia(punto2);
 
         System.out.println("La distancia entre el punto1 y el punto2 = "+d);
+
+        //crear objetos Autoovil
+
+        Automovil auto = new Automovil("Honda","CRV",
+                                       "turbo DOHCVTEC",190);
+
+        System.out.println("El automovil marca: "+auto.getMarca()+", modelo:"+auto.getModelo()+
+                           " tiene un motor de tipo: "+auto.getMotor().getTipo()+
+                           " Potencia: "+auto.getMotor().getPotencia());
+
+        Motor motor = new Motor("5.0",395);
+        Automovil auto1 = new Automovil("Ford","Lobo",motor);
+
+        System.out.println("El automovil marca: "+auto1.getMarca()+", modelo:"+auto1.getModelo()+
+        " tiene un motor de tipo: "+auto1.getMotor().getTipo()+
+        " Potencia: "+auto1.getMotor().getPotencia());
+
+        Automovil auto2 = new Automovil();
+        System.out.println("El automovil marca: "+auto1.getMarca()+", modelo:"+auto2.getModelo()+
+        " tiene un motor de tipo: "+auto2.getMotor().getTipo()+
+        " Potencia: "+auto2.getMotor().getPotencia());
+
+
+
+
+
 
 
 
