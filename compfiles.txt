@@ -8,6 +8,8 @@
 ./biblioteca/Ejemplar.java
 ./biblioteca/Invitado.java
 ./biblioteca/Bibliotecario.java
+./paquete2/Monitor.java
+./paquete2/Computadora.java
 ./miPrincipal/Calculadora.java
 ./miPrincipal/Persona.java
 ./miPrincipal/Punto.java

@@ -16,7 +16,8 @@ public class Automovil {
     
 
     public Automovil() {
-        //terminar codigo
+        this.marca = "Sin marca";
+        
     }
 
 

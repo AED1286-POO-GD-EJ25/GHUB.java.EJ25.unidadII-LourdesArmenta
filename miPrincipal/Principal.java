@@ -1,5 +1,7 @@
 package miPrincipal;
 import paquete1.*;
+import paquete2.*;
+
 
 public class Principal {
    
@@ -116,9 +118,24 @@ public class Principal {
         " Potencia: "+auto1.getMotor().getPotencia());
 
         Automovil auto2 = new Automovil();
-        System.out.println("El automovil marca: "+auto1.getMarca()+", modelo:"+auto2.getModelo()+
+        System.out.println("Estoy revisando el error:");
+        System.out.println("El automovil marca: "+auto2.getMarca()+", modelo:"+auto2.getModelo()+
         " tiene un motor de tipo: "+auto2.getMotor().getTipo()+
         " Potencia: "+auto2.getMotor().getPotencia());
+
+        //Uso de la Relacion de Agregacion
+
+        //Forma1
+        Computadora compu1 = new Computadora("HP","MX25" , new Monitor("HP",16));
+
+        System.out.println("Computadora 1 marca: "+compu1.getMarca()+" modelo: "+
+                                                  compu1.getModelo()+"\n"+
+                                                  "Marca monitor: "+compu1.getMonitor().getMarca()+
+                                                  " Tammaño: "+compu1.getMonitor().getTamanio()+" pulgadas");
+
+
+
+
 
 
 
