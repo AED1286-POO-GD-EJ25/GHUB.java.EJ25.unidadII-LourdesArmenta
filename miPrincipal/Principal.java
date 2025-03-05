@@ -118,6 +118,13 @@ public class Principal {
         " Potencia: "+auto1.getMotor().getPotencia());
 
         Automovil auto2 = new Automovil();
+        auto2.setMarca("suzuki");
+        auto2.setModelo("swift");
+        
+        Motor motor2 = new Motor("SN",80);
+
+        auto2.setMotor(motor2);
+        
         System.out.println("Estoy revisando el error:");
         System.out.println("El automovil marca: "+auto2.getMarca()+", modelo:"+auto2.getModelo()+
         " tiene un motor de tipo: "+auto2.getMotor().getTipo()+
