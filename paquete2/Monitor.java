@@ -11,6 +11,11 @@ public class Monitor {
         this.tamanio = tamanio;
     }
 
+    //
+    public String obtenerDetalles(){
+        return "Monitor marca: "+this.marca+" Tamaño: "+this.tamanio+" pulgadas";
+    }
+
     //Getters
     public String getMarca() {
         return marca;

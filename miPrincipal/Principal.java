@@ -2,7 +2,6 @@ package miPrincipal;
 import paquete1.*;
 import paquete2.*;
 
-
 public class Principal {
    
 
@@ -124,7 +123,7 @@ public class Principal {
         Motor motor2 = new Motor("SN",80);
 
         auto2.setMotor(motor2);
-        
+
         System.out.println("Estoy revisando el error:");
         System.out.println("El automovil marca: "+auto2.getMarca()+", modelo:"+auto2.getModelo()+
         " tiene un motor de tipo: "+auto2.getMotor().getTipo()+
@@ -139,6 +138,27 @@ public class Principal {
                                                   compu1.getModelo()+"\n"+
                                                   "Marca monitor: "+compu1.getMonitor().getMarca()+
                                                   " Tammaño: "+compu1.getMonitor().getTamanio()+" pulgadas");
+        //forma2
+        Monitor monitor1 = new Monitor("Apple",16);
+        Computadora compu2 = new Computadora("Apple","MacBook pro",monitor1);
+
+        System.out.println("Computadora 2 marca: "+compu2.getMarca()+" modelo: "+
+                                                    compu2.getModelo()+"\n"+
+                                                    "Monitor marca: "+compu2.getMonitor().getMarca()+
+                                                     " Tamaño: "+compu2.getMonitor().getTamanio()+" pulgadas");
+        //forma3
+
+        Computadora compu3 = new Computadora();
+
+        compu3.setMarca("IBM");
+        compu3.setModelo("S/M");
+        compu3.setMonitor(monitor1);
+
+        System.out.println(compu3.obtenerDetalles());
+
+
+
+        
 
 
 
