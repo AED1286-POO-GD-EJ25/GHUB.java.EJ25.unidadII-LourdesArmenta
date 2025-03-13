@@ -24,6 +24,7 @@ public class Monitor {
     public int getTamanio() {
         return tamanio;
     }
+    
 
     
 
